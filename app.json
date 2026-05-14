@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Marshall Co. VFD",
+    "slug": "marshall-covfd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1017"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marshallcounty.vfd"
+    },
+    "android": {
+      "package": "com.marshallcounty.vfd",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D1017"
+      },
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "extra": {
+      "eas": { "projectId": "YOUR_PROJECT_ID_HERE" }
+    }
+  }
+}

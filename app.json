@@ -30,7 +30,9 @@
     "plugins": ["expo-router"],
     "experiments": { "typedRoutes": true },
     "extra": {
-      "eas": { "projectId": "YOUR_PROJECT_ID_HERE" }
-    }
+      "router": { "origin": false },
+      "eas": { "projectId": "14f0b258-f66d-46c3-80f5-77f8d6008224" }
+    },
+    "owner": "johnthomexpo"
   }
 }
